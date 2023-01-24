@@ -1,0 +1,7 @@
+- rename .env.example to .env
+- run composer install
+- add mail information
+- run command php artisan migrate
+- run php artisan db:seed so create users
+- run command on server by supervisor auto:userwelcome if you wont to check mail
+- the corn job is on command running every everyMinute
